@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Дайком</string>
+    <string name="msg">Продажа и ремонт компьютерной техники!</string>
+    <string name="aboutUs">О нас</string>
+    <string name="catalog">Каталог</string>
+    <string name="checkStatus">Проверка статуса ремонта</string>
+    <string name="surname">Фамилия</string>
+    <string name="OrderID">Код заявки</string>
+    <string name="get">Получить</string>
+    <string name="send">Отправить</string>
+    <string name="getStatus">Получить статус</string>
+    <string name="enterStatus">Введите свою фамилию и номер заказа (без буквы \"R"\")</string>
+    <string name="downloadText">Загрузка...</string>
+    <string name="InputS">Заполните фамилию!</string>
+    <string name="InputC">Заполните код заявки!</string>
+    <string name="InputCS">Заполните фамилию и код заявки!</string>
+
+
+
+
+    <!-- Категории -->
+
+    <string name="c1">Ноутбуки</string>
+    <string name="c2">Мониторы</string>
+    <string name="c3">Накопители</string>
+    <string name="c4">ОЗУ</string>
+    <string name="c6">Процессоры</string>
+    <string name="c7">Видеокарты</string>
+
+    <!-- Конец категорий -->
+
+
+    <!-- Коды статуса-->
+    <string name="StatusCode0">Заказа нет в базе</string>
+    <string name="StatusCode1">Заказ принят</string>
+    <string name="StatusCode2">Диагностика</string>
+    <string name="StatusCode3">Ожидает заказчика</string>
+
+
+    <!-- Конец кодов-->
+
+    <!-- Google Talk Back-->
+
+    <string name="TalkBackDesrciptOfBackground">Эта картинка является фоном главной страницы приложения</string>
+    <string name="TalkBackLogo">Логотип компании Дайком</string>
+    <string name="TalkBackAboutUs">Кнопка о нас, нажмите дважды чтобы открыть контактные данные компании</string>
+</resources>

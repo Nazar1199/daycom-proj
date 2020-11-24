@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Daycom</string>
+    <string name="msg">Sales and repairs of computer technology!</string>
+    <string name="aboutUs">About us</string>
+    <string name="catalog">Catalog</string>
+    <string name="checkStatus">Check status of repair</string>
+    <string name="surname">Surname</string>
+    <string name="OrderID">Order code</string>
+    <string name="get">Get</string>
+    <string name="send">Send</string>
+    <string name="getStatus">Get status</string>
+    <string name="enterStatus">Enter your surname and order number (without the letter \"R\"</string>
+    <string name="downloadText">Download...</string>
+    <string name="InputS">Enter surname!</string>
+    <string name="InputC">Enter code of order!</string>
+    <string name="InputCS">Enter sunrame and code of order!</string>
+
+    <!-- Categories -->
+
+    <string name="c1">Laptops</string>
+    <string name="c2">Monitors</string>
+    <string name="c3">Storage</string>
+    <string name="c4">RAM</string>
+    <string name="c6">Processors</string>
+    <string name="c7">Graphics cards</string>
+
+
+
+    <!-- End of categories -->
+
+    <!-- Status codes-->
+    <string name="StatusCode0">Order not found in data base</string>
+    <string name="StatusCode1">Order is accepted</string>
+    <string name="StatusCode2">Diagnostics</string>
+    <string name="StatusCode3">Awaiting customer</string>
+
+
+    <!-- End of codes-->
+
+    <!-- Google Talk Back-->
+
+    <string name="TalkBackDesrciptOfBackground">This picture is background of main page of this application</string>
+    <string name="TalkBackLogo">This is logo of company Daycom</string>
+    <string name="TalkBackAboutUs">This is button about us, double tap that open contact information</string>
+</resources>

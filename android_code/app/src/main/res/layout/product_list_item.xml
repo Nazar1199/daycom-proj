@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/prod_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="4dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:id="@+id/prod_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/prod_img"
+        app:layout_constraintTop_toBottomOf="@+id/prod_name"
+        android:text="Description"
+        android:textColor="@color/description_of_list"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:maxLines="2"
+        android:ellipsize="marquee"
+        app:layout_constraintHorizontal_weight="@+id/prod_price"
+        android:paddingTop="0dp"/>
+
+    <TextView
+
+        android:id="@+id/prod_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:padding="8dp"
+        android:text="prod_name"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/prod_img"
+        android:ellipsize="marquee"
+        app:layout_constraintHorizontal_weight="@+id/prod_price"
+        app:layout_constraintTop_toTopOf="parent"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/prod_price"
+        android:textAlignment="viewEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:padding="16dp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:text="prod_price"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="@+id/prod_img"
+        />
+
+</android.support.constraint.ConstraintLayout>
